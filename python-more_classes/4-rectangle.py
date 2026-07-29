@@ -51,3 +51,7 @@ class Rectangle:
             return ""
         rect = [("#" * self.__width) for i in range(self.__height)]
         return "\n".join(rect)
+
+    def __repr__(self):
+        """Return a string representation for reproduction with eval"""
+        return "Rectangle({}, {})".format(self.__width, self.__height)
