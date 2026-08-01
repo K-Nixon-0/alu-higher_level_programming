@@ -1,3 +1,4 @@
+-- creates table id_not_null, id default 1
 -- creates table id_not_null with id default 1
 CREATE TABLE IF NOT EXISTS id_not_null (
     id INT DEFAULT 1,

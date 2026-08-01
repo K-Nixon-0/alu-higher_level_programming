@@ -1,3 +1,4 @@
+-- lists all shows and their genres, NULL if none
 -- lists all shows and all genres linked, NULL if none
 SELECT tv_shows.title, tv_genres.name
 FROM tv_shows

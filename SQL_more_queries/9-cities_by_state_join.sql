@@ -1,3 +1,4 @@
+-- lists cities with their state name using JOIN
 -- lists cities.id, cities.name, states.name using JOIN
 SELECT cities.id, cities.name, states.name
 FROM cities
