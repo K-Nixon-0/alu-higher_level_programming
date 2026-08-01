@@ -1,3 +1,4 @@
+-- average temperature per city, ordered desc
 SELECT city, AVG(temperature) AS avg_temp
 FROM temperatures
 GROUP BY city
