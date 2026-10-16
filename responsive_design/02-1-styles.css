@@ -1,0 +1,50 @@
+/* 01-styles.css updates for hero section */
+.hero-homepage {
+  background-position: 65% 8rem;
+  background-size: 90rem auto;
+}
+
+.section-hero .section-inner {
+  min-height: 35vh;
+}
+
+/* Helpers section */
+main img {
+  width: 100%;
+  height: auto;
+}
+
+/* Section Latest news media query */
+@media (max-width: 767px) {
+  .section-latest-news .row {
+    flex-direction: column;
+  }
+}
+
+/* Grid media query */
+@media (max-width: 767px) {
+  :root {
+    --section-padding: 5rem 1.5rem;
+    --section-body-padding: 2rem 0 0;
+  }
+
+  ul.row, .row {
+    flex-direction: column;
+    margin: 0;
+  }
+
+  [class*="col-"] {
+    margin: 0 0 3rem 0;
+  }
+
+  .col-1-3, .col-1-2 {
+    width: 100%;
+  }
+}
+
+/* Navbar media query */
+@media (max-width: 767px) {
+  .navbar-menu {
+    display: none;
+  }
+}
