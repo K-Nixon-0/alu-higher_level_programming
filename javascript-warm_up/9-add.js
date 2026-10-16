@@ -1,7 +1,6 @@
 #!/usr/bin/node
-function add(a, b) {
-  return a + b
+function add (a, b) {
+  return parseInt(a, 10) + parseInt(b, 10);
 }
-
-const args = process.argv.slice(2)
-console.log(add(parseInt(args[0], 10), parseInt(args[1], 10)))
+const args = process.argv.slice(2);
+console.log(add(args[0], args[1]));
